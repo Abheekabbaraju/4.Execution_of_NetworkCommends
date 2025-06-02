@@ -34,7 +34,7 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 ## Program:
-### CLIENT:
+### SERVER:
 ```
  import socket 
 from pythonping import ping 
@@ -50,7 +50,7 @@ except KeyError:
 c.send("Not Found".encode())
 ```
 
-### SERVER:
+### CLIENT:
 ```
 import socket 
 s=socket.socket() 
